@@ -1,0 +1,11 @@
+<view wx:for="{{array}}" wx:key="index">
+    {{index}} - {{item}}
+</view>
+
+<view wx:for="{{list}}" wx:key="id">
+    {{item.id}} - {{item.name}}
+</view>
+
+<block wx:for="{{array}}" wx:key="index">
+    {{index}} - {{item}}
+</block>

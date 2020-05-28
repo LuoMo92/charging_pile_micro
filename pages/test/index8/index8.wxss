@@ -1,0 +1,4 @@
+/* pages/index8/index8.wxss */
+.hover_class{
+    background-color: cadetblue;
+}

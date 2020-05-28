@@ -1,0 +1,8 @@
+/* pages/index7/index7.wxss */
+@import "../../../styles/box.wxss"
+
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+}

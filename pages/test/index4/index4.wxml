@@ -1,0 +1,9 @@
+<view >
+    <checkbox checked="{{isChecked?true:false}}" />
+</view>
+<view >
+    {{num1+"10"}}
+</view>
+<view >
+    <text wx:if="{{num1>20}}">aa</text>
+</view>

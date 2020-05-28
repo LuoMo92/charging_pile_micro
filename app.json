@@ -1,13 +1,40 @@
 {
   "pages":[
+    "pages/test/index9/index9",
+    "pages/test/index8/index8",
+    "pages/test/index7/index7",
+    "pages/test/index6/index6",
+    "pages/test/index5/index5",
+    "pages/test/index4/index4",
+    "pages/test/index3/index3",
+    "pages/test/index2/index2",
     "pages/index/index",
     "pages/logs/logs"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "LuoMo",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+    "color":"#000",
+    "selectedColor":"#0094ff",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"icons/index.png",
+        "selectedIconPath":"icons/index_active.png"
+      },
+      {
+        "pagePath":"pages/logs/logs",
+        "text":"日志",
+        "iconPath":"icons/log.png",
+        "selectedIconPath":"icons/log_active.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

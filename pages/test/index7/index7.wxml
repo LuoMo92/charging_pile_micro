@@ -1,0 +1,5 @@
+<view class="lg_box">index7</view>
+
+<view style="background-color:yellow;color:{{color}}">aa</view>
+
+<view class="{{myClass}}">ff</view>
